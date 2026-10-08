@@ -12,3 +12,7 @@ La méthode qui aurait supprimé les modifications du fichier en plus d'annuler 
 
 Mission 9 :
 J'ai utilisé la commande `git revert`. La méthode est différente de la mission 8 car `revert` crée un nouveau commit qui annule les modifications, au lieu d'effacer le commit de l'historique. C'est indispensable pour un commit déjà partagé afin de ne pas perturber le dépôt distant des autres développeurs.
+
+Mission 11 :
+J'ai utilisé la commande `git cherry-pick 15e52bc`. L'identifiant du commit récupéré est 15e52bc. 
+Une fusion classique n'était pas adaptée car la branche contenait d'autres commits expérimentaux que je ne voulais pas intégrer à la branche principale.
