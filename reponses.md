@@ -16,3 +16,15 @@ J'ai utilisé la commande `git revert`. La méthode est différente de la missio
 Mission 11 :
 J'ai utilisé la commande `git cherry-pick 15e52bc`. L'identifiant du commit récupéré est 15e52bc. 
 Une fusion classique n'était pas adaptée car la branche contenait d'autres commits expérimentaux que je ne voulais pas intégrer à la branche principale.
+
+
+Mission 12 :
+Dans la version 1.0.0, les trois nombres représentent:
+- 1 : Version Majeure (changements majeurs ou refonte incompatible).
+- 0 : Version Mineure (ajout de nouvelles fonctionnalités rétrocompatibles).
+- 0 : Patch / Correctif (correction de bugs mineurs).
+
+Les versions suivantes seraient :
+- Pour une correction de bug mineur : v1.0.1
+- Pour une nouvelle fonctionnalité compatible : v1.1.0
+- Pour une refonte majeure incompatible : v2.0.0
